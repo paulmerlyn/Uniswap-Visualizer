@@ -1,8 +1,6 @@
 # Uniswap Visualizer | Demo Project Submission
 
-This project is part of the application process for Full-Stack Engineer
-
-## Available Scripts
+## Running the Project
 
 To clone, install dependencies, and run the project, please execute these commands:
 
@@ -17,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 To run the tests (I've included a handful)
 ### `npm test`
 
-... which lLaunches the test runner in the interactive watch mode.\
+... which launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
