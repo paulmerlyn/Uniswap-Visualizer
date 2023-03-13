@@ -30,7 +30,9 @@ export const DisplayTokens = ({ data, loading, paginationHandlers }) => {
         <tbody>
           {data.tokens.map(({ id, symbol, name, totalValueLockedUSD, txCount }, index) => (
             <tr key={id}>
-              <td data-testid="rank" className="text-right">{getRankFromPageNumber() + index + 1}</td>
+              <td data-testid="rank" className="text-right">
+                {getRankFromPageNumber() + index + 1}
+              </td>
               <td>{symbol}</td>
               <td>{name}</td>
               <td className="text-right">
