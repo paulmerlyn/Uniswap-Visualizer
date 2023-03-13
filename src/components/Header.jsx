@@ -20,7 +20,7 @@ export const Header = () => {
       <Row className="d-flex justify-content-center">
         <Col md="12" className="mt-3 text-white">
           <Navbar bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand>
               &nbsp;&nbsp;
               <img
                 src="/uniswap-logo-pink.png"
@@ -37,8 +37,12 @@ export const Header = () => {
                 <Nav.Link href="pools" id="pools" active={path === "pools"}>
                   &nbsp;&nbsp;Top {configData.uniswap.pools.pageSize} Pools
                 </Nav.Link>
-                <Nav.Link href="tokens" id="tokens" active={path === "tokens"}>&nbsp;&nbsp;Tokens</Nav.Link>
-                <Nav.Link href="tvlvol" id="tvlvol" active={path === "tvlvol"}>&nbsp;&nbsp;Token TVL-vs-Vol</Nav.Link>
+                <Nav.Link href="tokens" id="tokens" active={path === "tokens"}>
+                  &nbsp;&nbsp;Tokens
+                </Nav.Link>
+                <Nav.Link href="tvlvol" id="tvlvol" active={path === "tvlvol"}>
+                  &nbsp;&nbsp;Token TVL-vs-Vol
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
