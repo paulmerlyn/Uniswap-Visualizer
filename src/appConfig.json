@@ -1,0 +1,16 @@
+{
+  "uniswap": {
+    "api": {
+      "endpoint": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3"
+    },
+    "pools": {
+      "pageSize": 20
+    },
+    "tokens": {
+      "pageSize": 10
+    },
+    "tokens_tvl_by_vol": {
+      "count": 100
+    }
+  }
+}

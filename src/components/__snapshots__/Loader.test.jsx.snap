@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="d-flex align-items-center text-center mx-auto vstack"
+>
+  <div
+    style={
+      Object {
+        "height": 100,
+      }
+    }
+  />
+  <div
+    className="d-flex align-items-center text-center spinner-border"
+    role="status"
+  >
+    <span
+      className="visually-hidden"
+    >
+      Loading...
+    </span>
+  </div>
+</div>
+`;
